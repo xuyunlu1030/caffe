@@ -26,6 +26,7 @@ using caffe::Timer;
 using caffe::vector;
 using std::ostringstream;
 
+//DEFINE_string: glags functions,flag name/default value/description
 DEFINE_string(gpu, "",
     "Optional; run in GPU mode on given device IDs separated by ','."
     "Use '-gpu all' to run on all available GPUs. The effective training "
